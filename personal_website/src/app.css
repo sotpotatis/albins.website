@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Add classes for tooltips. */
+@layer components {
+	.tooltip {
+		@apply bg-black border-2 border-gray-400 rounded-lg text-white px-1 py-3 px-3 text-sm;
+	}
+}
