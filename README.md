@@ -8,11 +8,11 @@ My very own personal website which projects that I have made and tells a little 
 ## Developing
 
 1. Clone the repository:
-`git clone https://github.com/sotpotatis/albins.website.git`
+   `git clone https://github.com/sotpotatis/albins.website.git`
 2. Install dependencies:
-`npm install`
+   `npm install`
 3. Install pre-commit tools (automatically formats your code before every git commit):
-`npm run prepare`
+   `npm run prepare`
 
 ### Development server
 
@@ -36,11 +36,13 @@ the script below will be automatically ran before every commit.
 #### Manually
 
 To automatically format code using [Prettier](https://prettier.io/):
+
 - `npm run format`
 
 ### Linting
 
 To lint code:
+
 - `npm run lint`
 
 (see [SvelteKit information](README_SvelteKit.md) for more information)

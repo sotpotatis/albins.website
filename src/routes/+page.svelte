@@ -39,7 +39,10 @@
 </svelte:head>
 <div class={darkModeActive ? 'dark' : ''}>
 	<!-- Add rest of page body -->
-	<div class="bg-gray-100 dark:bg-gray-800 dark:text-gray-200 min-h-screen max-w-screen p-0" id="main">
+	<div
+		class="bg-gray-100 dark:bg-gray-800 dark:text-gray-200 min-h-screen max-w-screen p-0"
+		id="main"
+	>
 		<DarkModeToggle />
 		<Header />
 		<Body />

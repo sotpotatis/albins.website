@@ -192,7 +192,7 @@ const projectsContent = {
 				}
 			},
 			{
-				type: "image",
+				type: 'image',
 				attributes: {
 					source: '/project_images/dishwatcher_website.png',
 					alt: 'Screenshot showing the DishWatcher home page.',
