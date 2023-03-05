@@ -13,12 +13,12 @@ An informational box showing what music I am currently playing.-->
 	export let albumName;
 	export let albumCoverURL;
 	export let albumURL;
-	export let trackTags;
+	// Might be interesting to include in the future... export let trackTags;
 	export let trackIsLoved;
 </script>
 
 <div
-	class="bg-gray-200 dark:bg-gray-600 dark:text-white border-2 max-h-full max-w-full border-gray-400 dark:border-gray-500 rounded-lg py-3 px-3 box-shadow-lg text-gray-500 text-left"
+	class="bg-gray-200 dark:bg-gray-600 dark:text-gray-200 border-2 max-h-full max-w-full border-gray-400 dark:border-gray-500 rounded-lg py-3 px-3 box-shadow-lg text-gray-500 text-left"
 >
 	<div class="grid grid-cols-1 md:grid-cols-3 gap-x-4">
 		<NowPlayingAlbumCover artist={artistName} name={albumName} imageUrl={albumCoverURL} />

@@ -10,7 +10,7 @@ A HTML list but exposed in a more Svelte-like format. -->
 	};
 </script>
 
-<ul class={listTypeToClass[type]}>
+<ul class={`pl-6 ${listTypeToClass[type]}`}>
 	{#each entries as entry}
 		<li>{entry}</li>
 	{/each}

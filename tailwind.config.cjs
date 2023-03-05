@@ -5,7 +5,16 @@ module.exports = {
 	theme: {
 		extend: {
 			animation: {
-				'spin-slow': 'spin 10s linear infinite' // Create an animation for a slow spinning effect
+				'reverse-spin-slow': 'reverse-spin 15s linear infinite' // Create an animation for a slow spinning effect
+			},
+			// Note: thank you https://github.com/tailwindlabs/tailwindcss/discussions/2220#discussioncomment-596742
+			// for reverse spinning effect.
+			keyframes: {
+				'reverse-spin': {
+					from: {
+						transform: 'rotate(360deg)'
+					}
+				}
 			}
 		}
 	},

@@ -19,7 +19,8 @@ const projectsContent = {
 				type: 'paragraph',
 				attributes: {
 					text: `My weather station project SkySpy is my graduation project from high school ("gymnasium" in the Swedish school system). It features a full weather station system platform, including
-                code for a backend, a frontend, and code for sensor nodes. The scope of the project also included manufacturing custom PCBs and cases.`
+                code for a backend, a frontend, and code for sensor nodes. The scope of the project also included manufacturing custom PCBs and cases.
+                It is one of my biggest projects so far and I will update this section more when the project has been completed and graded!`
 				}
 			},
 			{
@@ -189,6 +190,14 @@ const projectsContent = {
                     you could visualize find the data. The API both provided processed/parsed and raw sensor data from the motion and photodiode sensors,
                    opening up a lot of possibilities.`
 				}
+			},
+			{
+				type: "image",
+				attributes: {
+					source: '/project_images/dishwatcher_website.png',
+					alt: 'Screenshot showing the DishWatcher home page.',
+					caption: 'Screenshot of website home page.'
+				}
 			}
 		]
 	},
@@ -236,8 +245,8 @@ const projectsContent = {
 							}
 						},
 						{
-							icon: 'ic:baseline-download',
 							text: 'GitHub',
+							icon: 'radix-icons:github-logo',
 							onClick: () => {
 								openURL('https://github.com/sotpotatis/ssis-fit');
 							}
@@ -438,6 +447,7 @@ const projectsContent = {
 					buttons: [
 						{
 							text: 'GitHub',
+							icon: 'radix-icons:github-logo',
 							color: 'black',
 							onClick: () => {
 								openURL('https://github.com/sotpotatis/ssisrelateddiscordbot');
@@ -497,6 +507,7 @@ const projectsContent = {
 					buttons: [
 						{
 							text: 'GitHub',
+							icon: 'radix-icons:github-logo',
 							color: 'black',
 							onClick: () => {
 								openURL('https://github.com/sotpotatis/DiscordPasswordBot');
@@ -561,6 +572,14 @@ const projectsContent = {
 					text: `Inspired by alternate, sometimes humorous, Lorem Ipsum-like generators such as the Swedish Löksås Ipsum and funny
                     English ones such as Bitcoin Ipsum and Buzzword Ipsum, I wanted to create my own generator which to date contains three different
                     word sets and some options like how many paragraphs you want to generate.`
+				}
+			},
+			{
+				type: 'image',
+				attributes: {
+					source: '/project_images/customipsum.png',
+					alt: 'Screenshot showing the Custom Ipsum website',
+					caption: 'Screenshot of the main website'
 				}
 			},
 			{
@@ -1049,6 +1068,7 @@ const projectsContent = {
 						},
 						{
 							text: 'Download',
+							icon: 'ic:baseline-download',
 							color: 'blue',
 							onClick: () => {
 								openURL(

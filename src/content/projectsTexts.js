@@ -112,7 +112,7 @@ const projectsTexts = [
 	},
 	{
 		associatedProject: null,
-		content: ' Nice to meet you!'
+		content: ' . Nice to meet you!'
 	}
 ];
 export default projectsTexts;

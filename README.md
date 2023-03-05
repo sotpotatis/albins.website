@@ -7,20 +7,46 @@ My very own personal website which projects that I have made and tells a little 
 
 ## Developing
 
-- `git clone https://github.com/sotpotatis/albins.website.git`
+1. Clone the repository:
+`git clone https://github.com/sotpotatis/albins.website.git`
+2. Install dependencies:
+`npm install`
+3. Install pre-commit tools (automatically formats your code before every git commit):
+`npm run prepare`
+
+### Development server
 
 To run a development server:
 
 - `npm run dev`
 
+### Building
+
 To build the website:
 
 - `npm run build`
 
+### Formatting
+
+#### Automatically
+
+If you follow the instructions above to install Husky for pre-commit hooks,
+the script below will be automatically ran before every commit.
+
+#### Manually
+
 To automatically format code using [Prettier](https://prettier.io/):
 - `npm run format`
+
+### Linting
 
 To lint code:
 - `npm run lint`
 
 (see [SvelteKit information](README_SvelteKit.md) for more information)
+
+## Hosting
+
+This website is hosted on [Netlify](https://netlify.app/) and the repository includes an example [netlify.toml](netlify.toml)
+as well as uses the Svelte Netlify adapter in [svelte.config.js](svelte.config.js). However, since the website is entirely static,
+you can publish it pretty much anywhere.
