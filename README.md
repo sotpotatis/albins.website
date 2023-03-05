@@ -51,4 +51,9 @@ To lint code:
 
 This website is hosted on [Netlify](https://netlify.app/) and the repository includes an example [netlify.toml](netlify.toml)
 as well as uses the Svelte Netlify adapter in [svelte.config.js](svelte.config.js). However, since the website is entirely static,
-you can publish it pretty much anywhere.
+you can publish it pretty much anywhere. My personal website is hosted at https://albins.website/ and is auto-updated every time updates
+are pushed to the master branch.
+
+### Personal website build status:
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3e4627b7-5c6d-4752-ba5d-5cafcbcd9cd2/deploy-status)](https://app.netlify.com/sites/albins-website/deploys)
